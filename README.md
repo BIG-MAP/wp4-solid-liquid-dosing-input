@@ -8,3 +8,7 @@ This means that the script can still be used to calculate masses on a machine th
 Configuration of the LabX software is required for the next step in the process, where these masses are fed into the balance itself.
 This script will save the file containing the masses into a directory location as specified in the script.
 An import template must then be defined in LabX Client to read input files from this directory, with its format matching that of the input file.
+
+The current script needs only to be run by a python interpreter on a workstation PC. 
+For use with the LabX Client software, the two do not need to be run simultaneously.
+If the LabX template is defined correctly, it can automatically import the file containing the solid and liquid masses at any point after starting the software.
